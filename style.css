@@ -1,0 +1,93 @@
+
+
+body{
+    margin: 0; 
+    /* centrado de todas las letras */
+    text-align: center;
+    /* fondo grey */
+    background-color:whitesmoke; 
+}
+.encabezado{    
+    text-align: center;
+    background-color: #907597;   
+    font-family: 'Ranchers', cursive;
+    /*  */
+    margin-top: 2vh;
+}
+.encabezado h1{
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.navegacion{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;  /* elimina puntos viñeta*/
+}
+.links{
+    text-align: left;    
+}
+
+/* wrapper: Aca afecta a las tres tarjetas */
+.wrapper{ 
+
+    display: flex;
+    flex-flow: row;
+    background-color : lightcoral;
+    margin: 2vw;    /* Afecta el margin en 2vw*/
+    flex-wrap: wrap; /* Para hacer Responsive*/
+    justify-content: center; /* alineamiento horizontal */
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center; /* alineamiento horizontal */
+    align-items: center; /* alineamiento vertical */
+    margin-left: 10px;
+    
+
+}
+.tarjeta{
+
+    margin: 5vw;
+    background-color: #B8B5FF;
+    text-align: center;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.tarjeta-img{
+    /* afecta a imagen platos frios */
+    width: 120px;
+    border-radius: 50%;
+}
+.pie{
+
+    position: absolute;  
+    bottom: 0;
+    background-color: #907597;   
+    font-family: 'Ranchers', cursive;
+    margin-bottom: 15px;
+    width: 100%;
+    margin: 0;
+}
+/* Centrado del footer */
+.centrado_footer{
+    text-align: center;
+    background-color: #907597;   
+    font-family: 'Ranchers', cursive; 
+}
+.pie-contactos{
+    background-color: #907597;   
+    font-family: 'Ranchers', cursive;
+    margin-bottom: 15px;
+    width: 100%;
+    margin: 0;  
+}
+.h1{
+    background-color: #907597;   
+    font-family: 'Ranchers', cursive;
+}
+
+   
+
+
