@@ -87,6 +87,11 @@ body{
     background-color: #907597;   
     font-family: 'Ranchers', cursive;
 }
+.redes-sociales a{
+    /* color de fuente  enlaces redes sociales */
+    color: black; 
+
+}
 
    
 
